@@ -1,0 +1,134 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  color: black;
+}
+
+.fundo{
+  background-image: url(/img/Home/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.topo{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  text-align: center;
+  margin-top: 2%;
+  margin-right: 5%;
+  gap: 10px;
+  
+}
+.topo>button{  
+  width: 70px;
+  height: 40px;
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  
+}
+.topo>button:hover{
+  background-color: #9c9c9c;
+}
+.topo>a{  
+  text-decoration: none;
+  color: rgb(255, 0, 0);
+  font-size: 12px;
+  width: 90px;
+  font-weight: bold;
+  
+}
+.section1{
+  text-align: center;
+
+}
+.logo{
+  width: 20%;
+  margin-top: -30px;
+}
+
+.section2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  text-align: center;
+  margin-top: 50px;
+   
+}
+.pesquisa label{
+  
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  color: #9c9c9c;
+  font-size: 30px;
+}
+.pesquisa input{
+  background-color: #EFEFEF;
+  width: 500px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 10px;
+  padding-left: 50px;
+  border: none;
+  border-bottom: none;
+  border-style: none;
+  font-size: 20px;
+
+}
+textarea:focus, input:focus, select:focus {
+  box-shadow: 0 0 0 0;
+  border: 0;
+  outline: 0;
+} 
+
+#lupa{
+  margin-right: 0px;
+  background-color: #EFEFEF;
+  width: 25px;
+  height: 25px;
+  margin-left: -70%;
+}
+.imagem{
+  width: 50%;
+}
+.empresas{
+  text-align: center;
+  margin-top: 30px;
+}
+.marca a img{
+  width: 4%;
+  padding: 20px;
+}
+.marca a img:hover{
+  zoom: 10%;
+}
+.dados{
+  text-align: end;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  
+}
+.dados a{
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+  color: black;
+  padding-left: 15px;
+  
+}
+.dados a:hover{
+  background-color: #9c9c9c;
+}
+
