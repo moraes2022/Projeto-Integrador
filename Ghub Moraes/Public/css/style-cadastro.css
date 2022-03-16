@@ -1,0 +1,102 @@
+main {
+    background-color: #F0F0F0;
+    width: 400px;
+    min-height: 300px;
+    margin: 50px auto;
+    text-align: justify;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+section{
+    background-color: #F0F0F0;
+    width: 400px;
+    min-height: 300px;
+    margin: 50px auto;
+    text-align: justify;
+    padding: 20px;
+    margin-top: -80px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.fil{
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+}
+
+filter>div{
+    
+}
+label{
+    margin-bottom: 15px;
+}
+
+input, select{
+    display: block;
+}
+
+
+#obri{
+    color: red;
+    margin-top: -22px;
+    margin-bottom: 5px;
+    margin-left: end;
+    text-align: end;
+}
+
+input{
+    width: 95%;
+}
+.cidade{
+    text-align: center;
+}
+.botoes{
+    display: flex;
+    justify-content: space-around;
+}
+.retornar{
+    margin-top: 200px;
+    text-align: center;
+    width: 90px;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+.retornar a{
+    text-decoration: none;
+    font-family: arial;
+    color: black;
+    
+}
+.retornar:hover a{
+    background-color: rgb(0, 0, 0);
+    font-weight: bold;
+    color: #F0F0F0;
+}
+
+.retornar:hover{
+    background-color: rgb(0, 0, 0);
+}
+.enviar{
+    margin-top: 200px;
+    text-align: center;
+    width: 70px;
+    height: 20px;
+    text-align: center;
+
+
+    
+}
+.enviar:hover{
+    background-color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: arial;
+    color: white;
+}

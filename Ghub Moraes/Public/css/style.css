@@ -7,13 +7,25 @@
 }
 
 .fundo{
-  background-image: url(/img/Home/background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  
     width: 90%;
     margin-left: auto;
     margin-right: auto;
     
+}
+
+main{
+  background-image: url(/img/Home/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+    border: none;
+    height: 600px;
+    width: 120%;
+    margin-left: -10%;
+    margin-right: -10%;
+
+
 }
 .topo{
   display: flex;
@@ -51,7 +63,7 @@
 }
 .logo{
   width: 20%;
-  margin-top: -30px;
+  margin-top: 0px;
 }
 
 .section2{
@@ -61,8 +73,12 @@
   align-items: center;
   gap: 30px;
   text-align: center;
-  margin-top: 50px;
-   
+  margin-top: 180px;
+  
+     
+}
+.pesquisa{
+  margin-top: 0px;
 }
 .pesquisa label{
   
@@ -105,14 +121,16 @@ textarea:focus, input:focus, select:focus {
 }
 .empresas{
   text-align: center;
-  margin-top: 30px;
+  margin-top: 0px;
 }
 .marca a img{
   width: 4%;
   padding: 20px;
 }
 .marca a img:hover{
+  background-color: rgba(0, 0, 0, 0.616);
   zoom: 10%;
+  border-radius: 6%;
 }
 .dados{
   text-align: end;
@@ -132,3 +150,12 @@ textarea:focus, input:focus, select:focus {
   background-color: #9c9c9c;
 }
 
+@media (max-width: 1150px){
+  
+
+
+}
+
+
+
+}

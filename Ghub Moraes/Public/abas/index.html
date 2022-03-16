@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Br foods</title>
+    <link rel="stylesheet" href="/css/style-cadastro.css">
+</head>
+<body>
+    <main class="imput">
+        
+        <label class="obrigatorio">
+            Digite seu Email:   
+            <input 
+                 id="email-input" 
+                 name="email"
+                 type="email" 
+                 placeholder="Digite seu email"
+                 required
+                 
+                 >
+                 <h6 title="Obrigatório" id="obri">*</h6>
+
+                   
+                                
+
+        </label>
+        
+    
+        
+        <label class="obrigatorio">
+            Digite sua senha:
+            <input 
+                 id="senha" 
+                 name="senha"
+                 type="password" 
+                 placeholder="Digite sua senha"
+                 required>
+                 <h6 title="Obrigatório" id="obri">*</h6>
+
+        </label>
+       
+        <!-- confirmação de senha -->
+        <label class="obrigatorio">
+            Confirme sua senha:
+            <input 
+                 id="Confirme-senha" 
+                 name="senha"  
+                 type="password" 
+                 placeholder="Confirme sua senha"
+                 required>
+                 <h6 title="Obrigatório" id="obri">*</h6>
+
+        </label>
+        
+        <!-- data de nascimento -->
+        <label>
+            Data de Nascimento:
+            <input 
+                 id="nascimento" 
+                 name="nascimento"
+                 type="date" 
+                 placeholder="Digite sua data de Nascimento">
+                 <h6 title="Obrigatório" id="obri">*</h6>
+
+        </label>
+        
+        <!-- estado -->
+        <label>
+            Digite seu Estado:
+            <input 
+                 id="estado" 
+                 name="estado"
+                 type="text" 
+                 placeholder="Digite seu Estado">
+
+        </label>
+        
+        <!-- cidade -->
+        <label class="obrigatorio">
+            Digite sua Cidade:
+            <select>
+              
+                <option disable selected>Escolha sua cidade:</option>
+
+                <optgroup label="Acre">
+                    <option value="AC">Nenhuma cidade encontrada</option>
+                    <option value="AMA">Não existe</option>
+
+                </optgroup>
+                
+                <optgroup label="Bahia">
+                    <option value="BA">Salvador</option>
+
+                </optgroup>
+                
+                
+                 
+            </select>
+                 <h6 class="cidade" title="Obrigatório" id="obri">*</h6>
+
+        </label>
+
+
+        
+    </main>
+    <section>
+        <div>
+        <fieldset class="fil">
+            <legend>Meio de contato</legend>
+            <label ><input checked name="meioDeContato" type="radio">Telefone</label>
+            <label><input name="meioDeContato" type="radio">Whatssap</label>
+            <label><input name="meioDeContato" type="radio">SMS</label>
+            <label><input name="meioDeContato" type="radio">E-mail</label>
+        </fieldset>
+        </div>
+
+        <div class="botoes">
+            <button class="retornar"><a href="../Views/index.html">RETORNAR</a></button>
+        
+            <button class="enviar"> ENVIAR </button>
+
+        </div>
+        
+
+
+       </section>
+    
+</body>
+</html>
