@@ -1,0 +1,216 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+.topo{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.topo>img{
+    width: 20%;
+    
+
+}
+.topo label{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+}
+.topo label input{
+    padding: 2% ;
+    border-radius: 10px;
+    background-color: white;
+    border: solid 0.1px rgb(190, 184, 184);
+    text-align: center;
+    font-size: 150%;
+    width: 100%;
+}
+.topo label img{
+    margin-right: -10%;
+    
+
+}
+.topo a img{
+    width: 100%;
+    
+}
+.topo a{
+    width: 30px;
+    height: 30px;
+   
+}
+.dados{
+    text-align: center;
+}
+.categorias{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 18px;
+    align-items: center;
+    gap: 80px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    background-color:#FFF159;
+}
+.categorias a{
+    color: red;
+    padding: 10px;
+    margin: 0px;
+}
+.categorias a:hover{
+    color: #FFF159;
+    background-color: red;
+}
+.carrossel{
+
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+.carrossel img{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.regio{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+   
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+.lojas{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+.lojas>div{
+    width: 400px;
+    height: 200px;
+    
+}
+.ver-mais{
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    width: 12%;
+    margin: 15px auto;
+    border-radius: 10px;
+
+}
+.ver-mais a{
+    font-size: 30px;
+    color: #FFF159;
+}
+.ver-mais:hover{
+    background-color: rgba(112, 112, 112, 0.815);
+}
+.detalhes{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto 100px;
+    gap: 5px;
+    text-align: center;
+    border: solid 0.3px rgba(212, 211, 211, 0.863);
+    filter: opacity(80%);
+}
+.detalhes:hover{
+    filter: opacity(100%);
+    zoom: 1.1;
+}
+.um img{
+    width: 100%;
+}
+.dois img{
+    margin-top: 10px;
+    width: 40%;
+}
+.tres h2{
+    margin-top: 15px;
+}
+.quatro h3{
+    margin-top: 15px;
+}
+.quatro h2{
+    color: red;
+}
+.cinco h4{
+    margin-top: 15px;
+}
+.cinco h2{
+    color: blue;
+}
+.um{
+    
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.umm{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.doiss{
+    background-color: rgb(208, 255, 0);
+    
+}
+.tress{
+    background-color: rgb(255, 4, 242);
+}
+.quatroo{
+    background-color: rgb(255, 123, 0);
+}
+.cincoo{
+    background-color: rgb(116, 116, 116);
+}
+
+footer{
+    display: flex;
+    padding: 20px;
+    background-color: black;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 50px;
+}
+footer a{
+    color: #FFF159;
+    font-weight: bold;
+}
+footer a:hover{
+    background-color: red;
+}
+
